@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Let's Play </title>
+	<link rel="stylesheet" type="text/css" href="asset.css">
+	<link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<h1> Tic-Tac-Toe </h1>
+	<div id="stripe">
+		<button id="btn"> New Game </button>
+		<span id="try"> New Game </span> 
+		<span id="turn"> Turn: Player 1 </span>
+		<button id="def"> Default </button>
+	</div>
+
+    <h2 class="colour" id="clr1"> Player 1: <input id="p1" type="color"> </h2>
+
+   	<div id="container">
+		
+		<div id="sqr1" class="square"> </div>
+		<div id="sqr2" class="square"> </div>
+		<div id="sqr3" class="square"> </div>
+		<div id="sqr4" class="square"> </div>
+		<div id="sqr5" class="square"> </div>
+		<div id="sqr6" class="square"> </div>
+		<div id="sqr7" class="square"> </div>
+		<div id="sqr8" class="square"> </div>
+		<div id="sqr9" class="square"> </div>
+
+	</div>
+
+	<h2 class="colour" id="clr2"> Player 2: <input id="p2" type="color"> </h2>
+	
+	<div id="ins">
+			<h2 style="text-align: center"> Instructions: </h2>
+			<ol>
+				<li> Select the two colours(Click default for automatic selection). </li>
+				<li> Click on the box to select. </li>
+				<li> Play until Game is over.</li>
+				<li> For New Game, click New Game at top. </li> 
+			</ol>
+	</div>
+
+	<script type="text/javascript" src="fun.js"></script>
+
+</body>
+</html>
